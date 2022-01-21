@@ -1,0 +1,78 @@
+-- User
+INSERT INTO user (username,password) VALUES ('admin','manager');
+-- Product Category
+INSERT INTO product_category (categoryid,description) values('CAT001','Beauty');
+INSERT INTO product_category (categoryid,description) values('CAT002','Pets');
+INSERT INTO product_category (categoryid,description) values('CAT003','Bedding');
+INSERT INTO product_category (categoryid,description) values('CAT004','Jewelry');
+INSERT INTO product_category (categoryid,description) values('CAT005','Grocery');
+INSERT INTO product_category (categoryid,description) values('CAT006','Sports Goods');
+INSERT INTO product_category (categoryid,description) values('CAT007','Cleaning Supplies');
+INSERT INTO product_category (categoryid,description) values('CAT008','Outerwear');
+INSERT INTO product_category (categoryid,description) values('CAT009','Seasonal Decor');
+INSERT INTO product_category (categoryid,description) values('CAT010','Skin Care');
+INSERT INTO product_category (categoryid,description) values('CAT011','Furniture');
+INSERT INTO product_category (categoryid,description) values('CAT012','Office Supplies');
+INSERT INTO product_category (categoryid,description) values('CAT013','Technology');
+
+-- Customer
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('James','Butt','6649 N Blue Gum St','New Orleans','Orleans','LA','70116','504-621-8927','jbutt@gmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Josephine','Darakjy','4 B Blue Ridge Blvd','Brighton','Livingston','MI','48116','810-292-9388','josephine_dara@darakjy.org');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Art','Venere','8 W Cerritos Ave #54','Bridgeport','Gloucester','NJ','8014','856-636-8749','art@venere.org');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Lenna','Paprocki','639 Main St','Anchorage','Anchorage','AK','99501','907-385-4412','lpaprocki@hotmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Donette','Foller','34 Center St','Hamilton','Butler','OH','45011','513-570-1893','donette.foller@cox.net');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Simona','Morasca','3 Mcauley Dr','Ashland','Ashland','OH','44805','419-503-2484','simona@morasca.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Mitsue','Tollner','7 Eads St','Chicago','Cook','IL','60632','773-573-6914','mitsue_tollner@yahoo.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Leota','Dilliard','7 W Jackson Blvd','San Jose','Santa Clara','CA','95111','408-752-3500','leota@hotmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Sage','Wieser','5 Boston Ave #88','Sioux Falls','Minnehaha','SD','57105','605-414-2147','sage_wieser@cox.net');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Kris','Marrier','228 Runamuck Pl #2808','Baltimore','Baltimore City','MD','21224','410-655-8723','kris@gmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Minna','Amigon','2371 Jerrold Ave','Kulpsville','Montgomery','PA','19443','215-874-1229','minna_amigon@yahoo.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Abel','Maclead','37275 St  Rt 17m M','Middle Island','Suffolk','NY','11953','631-335-3414','amaclead@gmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Kiley','Caldarera','25 E 75th St #69','Los Angeles','Los Angeles','CA','90034','310-498-5651','kiley.caldarera@aol.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Graciela','Ruta','98 Connecticut Ave Nw','Chagrin Falls','Geauga','OH','44023','440-780-8425','gruta@cox.net');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Cammy','Albares','56 E Morehead St','Laredo','Webb','TX','78045','956-537-6195','calbares@gmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Mattie','Poquette','73 State Road 434 E','Phoenix','Maricopa','AZ','85013','602-277-4385','mattie@aol.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Meaghan','Garufi','69734 E Carrillo St','Mc Minnville','Warren','TN','37110','931-313-9635','meaghan@hotmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Gladys','Rim','322 New Horizon Blvd','Milwaukee','Milwaukee','WI','53207','414-661-9598','gladys.rim@rim.org');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Yuki','Whobrey','1 State Route 27','Taylor','Wayne','MI','48180','313-288-7937','yuki_whobrey@aol.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Fletcher','Flosi','394 Manchester Blvd','Rockford','Winnebago','IL','61109','815-828-2147','fletcher.flosi@yahoo.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Bette','Nicka','6 S 33rd St','Aston','Delaware','PA','19014','610-545-3615','bette_nicka@cox.net');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Veronika','Inouye','6 Greenleaf Ave','San Jose','Santa Clara','CA','95111','408-540-1785','vinouye@aol.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Willard','Kolmetz','618 W Yakima Ave','Irving','Dallas','TX','75062','972-303-9197','willard@hotmail.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Maryann','Royster','74 S Westgate St','Albany','Albany','NY','12204','518-966-7987','mroyster@royster.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Alisha','Slusarski','3273 State St','Middlesex','Middlesex','NJ','8846','732-658-3154','alisha@slusarski.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Allene','Iturbide','1 Central Ave','Stevens Point','Portage','WI','54481','715-662-6764','allene_iturbide@cox.net');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Chanel','Caudy','86 Nw 66th St #8673','Shawnee','Johnson','KS','66218','913-388-2079','chanel.caudy@caudy.org');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Ezekiel','Chui','2 Cedar Ave #84','Easton','Talbot','MD','21601','410-669-1642','ezekiel@chui.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Willow','Kusko','90991 Thorburn Ave','New York','New York','NY','10011','212-582-4976','wkusko@yahoo.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Bernardo','Figeroa','386 9th Ave N','Conroe','Montgomery','TX','77301','936-336-3951','bfigeroa@aol.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Ammie','Corrio','74874 Atlantic Ave','Columbus','Franklin','OH','43215','614-801-9788','ammie@corrio.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Francine','Vocelka','366 South Dr','Las Cruces','Dona Ana','NM','88011','505-977-3911','francine_vocelka@vocelka.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Ernie','Stenseth','45 E Liberty St','Ridgefield Park','Bergen','NJ','7660','201-709-6245','ernie_stenseth@aol.com');
+INSERT INTO CUSTOMER (FIRST_NAME,LAST_NAME,ADDRESS1,CITY,STATE,COUNTRY,ZIP,PHONE,EMAIL) VALUES ('Albina','Glick','4 Ralph Ct','Dunellen','Middlesex','NJ','8812','732-924-7882','albina@glick.com');
+
+--Product
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('FUR-BO-10001798','Bush Somerset Collection Bookcase','130.98','CAT011');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('FUR-CH-10000454','Hon Deluxe Fabric Upholstered Stacking Chairs,Rounded Back','243.98','CAT011');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-LA-10000240','Self-Adhesive Address Labels for Typewriters by Universal','7.31','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('FUR-TA-10000577','Bretford CR4500 Series Slim Rectangular Table','191.5155','CAT011');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-ST-10000760','Eldon Fold N Roll Cart System','11.184','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('FUR-FU-10001487','Eldon Expressions Wood and Plastic Desk Accessories,Cherry Wood','6.98','CAT011');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-AR-10002833','Newell 322','1.82','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('TEC-PH-10002275','Mitel 5320 IP Phone VoIP phone','151.192','CAT013');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-BI-10003910','DXL Angle-View Binders with Locking Rings by Samsill','6.168','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-AP-10002892','Belkin F5C206VTEL 6 Outlet Surge','22.98','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('FUR-TA-10001539','Chromcraft Rectangular Conference Tables','189.576','CAT011');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('TEC-PH-10002033','Chromcraft Rectangular Conference Tables','189.576','CAT011');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-PA-10002365','Konftel 250 Conference phone - Charcoal black','227.856','CAT013');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-BI-10003656','Xerox 1967','5.184','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-AP-10002311','Fellowes PB200 Plastic Comb Binding Machine','135.992','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-BI-10000756','Holmes Replacement Filter for HEPA Air Cleaner, Very Large Room, HEPA Filter','13.762','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-ST-10004186','Storex DuraTech Recycled Plastic Frosted Binders','0.848','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-ST-10000107','Stur-D-Stor Shelving, Vertical 5-Shelf: 72 H x 36 W x 18 1/2 D','110.98','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-AR-10003056','Fellowes Super Stor/Drawer','27.75','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('TEC-PH-10001949','Newell 341','4.28','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-BI-10002215','Cisco SPA 501G IP Phone','71.16','CAT013');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-AR-10000246','Wilson Jones Hanging View Binder, White','5.68','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('OFF-AP-10001492','Newell 318','2.78','CAT012');
+INSERT INTO PRODUCT (ID,DESCRIPTION,PRICE,CATEGORYID) VALUES ('FUR-CH-10002774','Acco Six-Outlet Power Strip, 4 Cord Length','8.62','CAT012');

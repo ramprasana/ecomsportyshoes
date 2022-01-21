@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Customer</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous"
+	th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}">
+
+<script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"
+	th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Sporty Sport Portal</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Customer <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/customer/list">List</a></li>
+						<li><a href="/customer/search">Search</a></li>
+					</ul></li>
+				<li><a href="/products/show">Product</a></li>
+				<li><a href="/report/purchase">Purchase Report</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/login">Logout</a></li>
+				<li><a href="/users/chgpass">Change Password</a></li>
+				<li><a href="#">Login : <span th:text="${loginuser}"></span></a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid" style="margin-top: 70px">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+				<div class="panel-heading">
+					<h1 class="panel-title">Search Orders</h1>
+				</div>
+				<div class="panel-body">
+					<form class="form-horizontal" action="/orders/report"
+						th:action="@{/orders/report}" th:object="${productcategoryes}" method="post">
+						<div class="pannel-group">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h1 class="panel-title">Purchase Report</h1>
+								</div>
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3 from-group">
+											<lable>Order Date:</lable>
+											<input type="datetime-local" class="form-control"
+												th:name="orderDate" name="orderDate" />
+										</div>
+									</div>
+									<div class="row">
+										<br>
+									</div>
+									<div class="row">
+										<div class="col-md-6 from-group">
+											<lable>Category</lable>
+											<select class="form-control" th:name="categoryId" name="categoryId">
+												<option th:each="cat : ${productcategoryes}"
+													th:value="${cat.categoryid}" th:text="${cat.description}"></option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+									<button type="submit" name="submit" value="new"
+										class="btn btn-primary">Submit</button>
+									<button type="submit" name="cancel" value="cancel"
+										class="btn btn-primary">Cancel</button>
+															
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
