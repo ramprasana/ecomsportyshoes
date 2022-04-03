@@ -21,14 +21,38 @@ pipeline {
                 echo "JOB Name - $env.JOB_NAME"
             }
         }
-        stage('Test') {
+        stage('Compile') {
             steps {
-                echo "Test"
+                sh "mvn clean compile"
             }
         }
-        stage('Integration Test') {
+        stage('Test') {
             steps {
-                echo "Integration test"
+                sh "mvn test"
+            }
+        
+        stage('Package') {
+            steps {
+                sh "mvn package -DskipTests"
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    dockerImage = docker.build("ramprasana/ecomportal-sporty:${env.BUILD_TAG}")
+                }
+            }
+        }
+
+        stage('Push Docker Image') {
+            steps {
+                script {
+                    docker.withRegistry('','DockerHub') {
+                        dockerImage.push();
+                        dockerImage.push('latest');
+                    }
+                }
             }
         }
     }
